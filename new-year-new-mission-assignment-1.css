@@ -1,0 +1,136 @@
+.background1{
+  /* max-width: 100rem;
+  max-height: 100vh ; */
+  
+background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Banner\ Image.png) center/cover no-repeat;
+
+text-align: center;
+  height: 600px; /* Adjust the height of the banner */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  filter: brightness(0.7);
+
+
+}
+
+
+
+
+.banner-text {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.text-1 {
+
+  color: #FFF;
+text-align: center;
+font-family: Merriweather;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.text-2 {
+
+  color: #FFF;
+text-align: center;
+font-family: Merriweather;
+font-size: 72px;
+font-style: normal;
+font-weight: 900;
+line-height: 95px; /* 131.944% */
+}
+
+.discount-section {
+
+
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+.welcome {
+
+
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/Vectorrr.png) center/cover no-repeat;
+
+  text-align: center;
+    height: 600px; /* Adjust the height of the banner */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: brightness(0.7);
+
+}
+
+
+
+.welcome-text {
+
+
+
+
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.off-text {
+
+
+  color: #F00;
+
+text-align: center;
+font-family: Inter;
+font-size: 88px;
+font-style: normal;
+font-weight: bold;
+line-height: normal;
+}
+
+.best-offer {
+
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+  
+  align-items: center;
+}
+
+
+.best-offer-pic {
+
+  border: solid 13px #F00;
+  border-radius: 50%;
+  
+}
+
+
+.portfolio {
+
+
+
+  display: grid;
+  grid-template-columns: auto auto auto;
+column-gap: 48px;
+row-gap: 48px;
+}
+
+.portfolio-pic {
+  width: 424px;
+
+
+
+
+
+
+}
