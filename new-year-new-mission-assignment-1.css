@@ -1,15 +1,18 @@
+/* header section start */
+
 .background1{
-  /* max-width: 100rem;
-  max-height: 100vh ; */
-  
-background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Banner\ Image.png) center/cover no-repeat;
+ background: linear-gradient(rgba(39, 38, 38, 0.5), rgba(68, 64, 64, 0.5)), url(Banner\ Image.png) center/cover no-repeat;
 
 text-align: center;
-  height: 600px; /* Adjust the height of the banner */
+  height: 600px; 
   display: flex;
   align-items: center;
   justify-content: center;
+
   filter: brightness(0.7);
+  
+  border-radius: 12px;
+  
 
 
 }
@@ -27,48 +30,52 @@ text-align: center;
 }
 
 .text-1 {
-
-  color: #FFF;
+ color: #ffffff;
 text-align: center;
 font-family: Merriweather;
 font-size: 32px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+
 }
 
 .text-2 {
-
-  color: #FFF;
+color: #fffefe;
 text-align: center;
 font-family: Merriweather;
 font-size: 72px;
 font-style: normal;
 font-weight: 900;
-line-height: 95px; /* 131.944% */
+line-height: 95px;
 }
+/* header section of */
 
-.discount-section {
 
-
-  display: flex;
-  justify-content: center;
+/*  start */
+.discount-section{
+display: flex;
+justify-content: center;
+margin-left: 180px;
+margin-right: 140px;
 }
+  
+/*discount 65% of */
 
 
-
+/* welcome start */
 
 .welcome {
-
-
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/Vectorrr.png) center/cover no-repeat;
-
+background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/Vectorrr.png) center/cover no-repeat;
   text-align: center;
     height: 600px; /* Adjust the height of the banner */
     display: flex;
     align-items: center;
     justify-content: center;
     filter: brightness(0.7);
+    margin-left: 140px;
+    margin-right: 140px;
+    border-radius: 12px;
 
 }
 
@@ -83,6 +90,7 @@ line-height: 95px; /* 131.944% */
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: left;
 }
 .off-text {
 
@@ -93,17 +101,19 @@ text-align: center;
 font-family: Inter;
 font-size: 88px;
 font-style: normal;
-font-weight: bold;
+font-weight: 700;
 line-height: normal;
 }
 
 .best-offer {
 
   display: flex;
-  margin-top: 50px;
+  margin-top: 70px;
   justify-content: space-between;
-  
   align-items: center;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 50px;
 }
 
 
@@ -111,6 +121,7 @@ line-height: normal;
 
   border: solid 13px #F00;
   border-radius: 50%;
+  margin: 50px;
   
 }
 
@@ -123,14 +134,26 @@ line-height: normal;
   grid-template-columns: auto auto auto;
 column-gap: 48px;
 row-gap: 48px;
+width: 100%;
+justify-content: center;
 }
 
 .portfolio-pic {
-  width: 424px;
+  width: 324px;
 
 
 
 
 
 
+}
+
+.button-primary {
+
+
+  background-color: #F00;
+  color: white;
+  padding: 10px;
+  border: 0;
+  border-radius: 8px;
 }
